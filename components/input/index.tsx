@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
     },
     multiline: {
-        paddingVertical: 25,
+        paddingVertical: 20,
     },
 });
 
