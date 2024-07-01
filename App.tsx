@@ -4,13 +4,14 @@
 
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import RegisterScreen from './screens/registerScreen';
+// import RegisterScreen from './screens/registerScreen';
+import ComboCard from './screens/merchantScreen';
 
 function App(): React.JSX.Element {
-
   return (
     <View style={styles.rootStyle}>
-      <RegisterScreen />
+      {/* <RegisterScreen /> */}
+      <ComboCard />
     </View>
   );
 }
